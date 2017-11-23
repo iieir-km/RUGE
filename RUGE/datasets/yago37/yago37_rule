@@ -1,0 +1,16 @@
+?b  <hasNeighbor>  ?a   => ?a  <hasNeighbor>  ?b	0.906187625
+?b  <isMarriedTo>  ?a   => ?a  <isMarriedTo>  ?b	0.969421738
+?a  <dealsWith>  ?b  ?b  <hasNeighbor>  ?a   => ?a  <hasNeighbor>  ?b	0.915384615
+?b  <isLocatedIn>  ?a  ?a  <isLocatedIn>  ?b   => ?a  <hasCapital>  ?b	0.806758184
+?a  <isMarriedTo>  ?f  ?f  <isPoliticianOf>  ?b   => ?a  <isPoliticianOf>  ?b	0.905660377
+?a  <hasChild>  ?f  ?f  <isPoliticianOf>  ?b   => ?a  <isPoliticianOf>  ?b	0.865707434
+?a  <hasChild>  ?f  ?f  <isCitizenOf>  ?b   => ?a  <isPoliticianOf>  ?b	0.824074074
+?e  <isMarriedTo>  ?a  ?e  <isPoliticianOf>  ?b   => ?a  <isPoliticianOf>  ?b	0.923076923
+?e  <hasChild>  ?a  ?e  <isPoliticianOf>  ?b   => ?a  <isPoliticianOf>  ?b	0.892688679
+?a  <hasChild>  ?b  ?b  <isMarriedTo>  ?a   => ?a  <isMarriedTo>  ?b	1
+?a  <hasChild>  ?f  ?f  <isCitizenOf>  ?b   => ?a  <isCitizenOf>  ?b	0.939393939
+?e  <hasChild>  ?a  ?e  <isPoliticianOf>  ?b   => ?a  <isCitizenOf>  ?b	0.840425532
+?e  <hasChild>  ?a  ?e  <isCitizenOf>  ?b   => ?a  <isCitizenOf>  ?b	0.906666667
+?a  <playsFor>  ?b   => ?a  <isAffiliatedTo>  ?b	0.859147875
+?f  <hasGender>  ?b  ?a  <influences>  ?f   => ?a  <hasGender>  ?b	0.813301663
+?e  <hasGender>  ?b  ?e  <influences>  ?a   => ?a  <hasGender>  ?b	0.857493857
