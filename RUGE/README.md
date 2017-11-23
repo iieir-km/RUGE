@@ -26,16 +26,16 @@ We peovide how to run the experiments of Link Prediction task in the following.
 ------------------
 
 To run the experiments, you need to preprocess datasets in the folder datasets/ following the steps below:
-    (1) Change data form: call the program ConvertDataForm.java in the folder src/basic/dataProcess to convert the string form of original data into digital form, and get resultant files train/valid/test.txt in the folder datasets/
-    (2) Propositionalize soft rules: call the program GroundAllRules.java in folder src\basic\dataProcess to propositionalize soft rules in the folder datasets/, and get a resultant file groundings.txt
+> (1) Change data form: call the program ConvertDataForm.java in the folder src/basic/dataProcess to convert the string form of original data into digital form, and get resultant files train/valid/test.txt in the folder datasets/
+> (2) Propositionalize soft rules: call the program GroundAllRules.java in folder src\basic\dataProcess to propositionalize soft rules in the folder datasets/, and get a resultant file groundings.txt
 
 
 ------------------
 3. TRAINING
 ------------------
 To train a model, you need to follow the steps below:
-    (1) Export Program_RUGE.java in the folder src/ruge/train as runnable JAR file, for example, termed as RUGE.jar
-    (2) Call the program RUGE.jar with parameters, for example, as follows:
+> (1) Export Program_RUGE.java in the folder src/ruge/train as runnable JAR file, for example, termed as RUGE.jar
+> (2) Call the program RUGE.jar with parameters, for example, as follows:
 
 java -jar RUGE.jar -train datasets\\fb15k\\train.txt -valid datasets\\fb15k\\valid.txt -test datasets\\fb15k\\test.txt -rule datasets\\fb15k\\groundings.txt -m 1345 -n 14951 -k 200 -d 0.01 -c 0.01 -ne 10 -ge 0.5 -gr 0.5 -# 1000 -skip 50
 
