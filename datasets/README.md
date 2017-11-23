@@ -55,9 +55,9 @@ Rules stored in this file are horn clauses with length not longer than 2 and con
 The length of a horn clause rule is the number of atoms appearing in its premise. 
 For example, a soft rule in the form of
 ?b  /film/director/film  ?a   => ?a  /film/film/directed_by  ?b	0.9
-has the lenght of 1, stating that two entities linked by relation r_s might also be linked by relation r_t with confidence level of 0.9. ?a/?b denotes entity variable that can be instantiated with the concrete entities to get ground rules, and ==> represents logical implication. 
+has the lenght of 1, stating that two entities linked by relation r_s might also be linked by relation r_t with confidence level of 0.9. ?a/?b denotes entity variable that can be instantiated with the concrete entities to get ground rules, and => represents logical implication. 
 For the above-mentioned example, we can propositionalize it with the
-concrete entities of Avatar and Cameron, resulting in ground rule as /film/director/film(Cameron,Avatar)==>/film/film/directed_by (Cameron,Avatar).
+concrete entities of Avatar and Cameron, resulting in ground rule as /film/director/film(Cameron,Avatar)=>/film/film/directed_by (Cameron,Avatar).
 
 
 ------------------
