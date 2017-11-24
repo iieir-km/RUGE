@@ -28,7 +28,7 @@ When using this code and dataset, one should cite the original paper:
     author    = {Shu Guo and Quan Wang and Lihong Wang and Bin Wang and Li Guo},  
     booktitle = {Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence},  
     year      = {2018} 
-  }
+  }  
 
 
 ------------------  
