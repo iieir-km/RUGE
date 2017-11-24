@@ -85,14 +85,13 @@ the validation or test sets were occurring in the training set.
 5. HOW TO CITE
 ------------------
 
-When using this data, one should cite the original paper:
-  @inproceedings{guo2018:RUGE,
-    title     = {Knowledge Graph Embedding with Iterative Guidance from Soft Rules},
-    author    = {Shu Guo and Quan Wang and Lihong Wang and Bin Wang and Li Guo},
-    booktitle = {Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence},
-    year      = {2018},
-    note      = {to appear}
-  }
+When using this code and dataset, one should cite the original paper:  
+@inproceedings{guo2018:RUGE,  
+ title     = {Knowledge Graph Embedding with Iterative Guidance from Soft Rules},  
+ author    = {Shu Guo and Quan Wang and Lihong Wang and Bin Wang and Li Guo},  
+ booktitle = {Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence},  
+ year      = {2018}<br> 
+}
 
 
 ------------------  
