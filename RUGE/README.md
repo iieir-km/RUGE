@@ -69,6 +69,7 @@ The program will train a model with the input parameters, and output 5 files:
   - MatrixR.real.best: the real part of realtion embeddings
   - MatrixE.imag.best: the imaginary part of entity embeddings
   - MatrixR.imag.best: the imaginary part of realtion embeddings
+
 To prevent results overwriting with different parameters, please kindly set corresponding file paths in the source code (RUGEModel.java). 
  
   
